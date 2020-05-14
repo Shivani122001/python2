@@ -1,0 +1,14 @@
+list1 = [1,5,8,7,6,9,45]
+list3= list1
+#Assigning elements to different lists
+print(list3)
+#deleting different dictionary elements
+dic= {12:"shivani",16:"hema",11:"harish",10:"mahesh",28:"ravi"}
+del dic[12]
+print(dic)
+#accessing elements from a tuple
+tuple1 = ('s', 'h','i', 'v','a','n','i')
+print(tuple1[3])#or
+print (tuple1[3: ])#or
+print(tuple1[ :4])#or
+print(tuple1[2:5])
